@@ -16,6 +16,11 @@
             "Codamos\\OficinaDddPhp\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Codamos\\OficinaDddPhp\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Níckolas Da Silva",
