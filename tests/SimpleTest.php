@@ -8,6 +8,9 @@ use PHPUnit\Framework\TestCase;
 
 class SimpleTest extends TestCase
 {
+    protected $backupStaticAttributes  =false;
+    protected $runTestInSeparateProcess = false;
+
     public function testMyTest(): void
     {
         self::assertTrue(true);
